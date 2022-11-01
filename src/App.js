@@ -8,7 +8,7 @@ function App() {
       </div>
       <div className="Quoy">
         <div className="profileImageQuoyContainer">
-          <img className="profileImage" href=""></img>
+          <img className="profileImage" src="https://yt3.ggpht.com/tqPI4woAKMOEImPTeer5O_dJgCAa3-CfoS1_cC_Y2-p6sAbRg8Ha03fuoyQRmJeYx9EWTBzkdA=s176-c-k-c0x00ffffff-no-rj"></img>
         </div>
         <div className='enterQuoyTextCont'>
           Quoy
