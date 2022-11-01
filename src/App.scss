@@ -53,18 +53,13 @@
   .enterHH756TextCont {
     font-size: 3rem;
   }
-  .HH756Blurb {
-    color: white;
-    transition: 500ms;
-    width: 50%;
-  }
 }
 .HH756:hover {
   width: 60%;
   cursor: pointer;
   box-shadow: 0px 0px 3rem rgb(200, 200, 200);
   z-index: 998;
-  .HH756Blurb {
+  .blurb {
     color: black;
   }
 }
@@ -73,12 +68,20 @@
   cursor: pointer;
   box-shadow: 0px 0px 3rem rgb(200, 200, 200);
   z-index: 998;
+  .blurb {
+    color: black;
+  }
 }
 .profileImage {
   width: 50%;
   aspect-ratio: 1;
   border-radius: 50%;
   box-shadow: 0px 0px 3rem rgb(200, 200, 200);
+}
+.blurb {
+  color: white;
+  transition: 500ms;
+  width: 50%;
 }
 .sideSelectElement {
   position: absolute;

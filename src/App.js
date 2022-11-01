@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <div className='sideSelectElement'>
-        {'<'} Choose your side &gt;
+        Choose your game
       </div>
       <div className="Quoy">
         <div className="profileImageQuoyContainer">
@@ -13,6 +13,9 @@ function App() {
         <div className='enterQuoyTextCont'>
           Quoy
         </div>
+        <p className='blurb'>
+          Hello, my main is QuoyBoi, I am your go to for very good projects. I am the CEO of such projects as FANG, the SEC, the IRS, & last, but not least: The Candian government.
+        </p>
       </div>
       <div className="HH756">
         <div className="profileImageHH756">
@@ -21,7 +24,7 @@ function App() {
         <div className="enterHH756TextCont">
           HH756
         </div>
-        <p className='HH756Blurb'>
+        <p className='blurb'>
           HH756, the most senior, and most goodest ever did you see web deweloper. I make many
           such websites as, youtube, amazon, twitch, airbnb, netflix, netflix.
         </p>
