@@ -8,7 +8,7 @@ function App() {
       </div>
       <div className="Quoy">
         <div className="profileImageQuoyContainer">
-          <img className="profileImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.79wy_MZqPldQZYfyuQjFkAHaFj%26pid%3DApi&f=1&ipt=e1d6a2e7f5a2e3ee8dc951be89c5fbfd43b7eaa14cf3c866a25f12fdb28b3ad2&ipo=images"></img>
+          <img className="profileImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2F736x%2F71%2F7e%2F40%2F717e40096e9bd99c76cb57d7d00f4cea.jpg&f=1&nofb=1&ipt=84a9b950a781a3890308422550d3a19aaae4af40347fd88233af5790c9675127&ipo=images"></img>
         </div>
         <div className='enterQuoyTextCont'>
           Quoy
