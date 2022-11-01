@@ -19,28 +19,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    .enterQuoyProfileImage {
+   .profileImageQuoyContainer {
       width: 50%;
-      height: 25%;
-      background: white;
-      box-shadow: 0px 0px 10px rgb(200, 200, 200);
-      border-radius: 10px;
       border: none;
-      .QuoyImage {
-        width: 50%;
-        aspect-ratio: 1;
-        border-radius: 50%;
-        box-shadow: 0px 0px 10px rgb(200, 200, 200);
-      }
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .enterQuoyTextCont {
+      font-size: 3rem;
     }
   }
-}
-
-.Quoy:hover {
-  width: 60%;
-  cursor: pointer;
-  box-shadow: 0px 0px 10px rgb(200, 200, 200);
-  z-index: 998;
 }
 .HH756 {
   background: white;
@@ -50,12 +39,38 @@
   align-items: center;
   justify-content: center;
   transition: 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .profileImageHH756 {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+  .enterHH756TextCont {
+    font-size: 3rem;
+  }
 }
 .HH756:hover {
   width: 60%;
   cursor: pointer;
   box-shadow: 0px 0px 10px rgb(200, 200, 200);
   z-index: 998;
+}
+.Quoy:hover {
+  width: 60%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
+  z-index: 998;
+}
+.profileImage {
+  width: 50%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
 }
 .sideSelectElement {
   position: absolute;
@@ -73,8 +88,4 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-}
-.enterQuoyTextCont {
-  font-size: 3rem;
-
 }

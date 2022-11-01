@@ -6,88 +6,76 @@
 .App {
   width: 100vw;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
-
 .App .Quoy {
   width: 50%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   background: white;
-  -webkit-transition: 250ms;
   transition: 250ms;
   display: flex;
   justify-content: center;
   align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
-.App .Quoy .enterQuoyProfileImage {
+.App .Quoy .profileImageQuoyContainer {
   width: 50%;
-  height: 25%;
-  background: white;
-  -webkit-box-shadow: 0px 0px 10px #c8c8c8;
-          box-shadow: 0px 0px 10px #c8c8c8;
-  border-radius: 10px;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.App .Quoy .enterQuoyProfileImage .QuoyImage {
-  width: 50%;
-  aspect-ratio: 1;
-  border-radius: 50%;
-  -webkit-box-shadow: 0px 0px 10px #c8c8c8;
-          box-shadow: 0px 0px 10px #c8c8c8;
-}
-
-.Quoy:hover {
-  width: 60%;
-  cursor: pointer;
-  -webkit-box-shadow: 0px 0px 10px #c8c8c8;
-          box-shadow: 0px 0px 10px #c8c8c8;
-  z-index: 998;
+.App .Quoy .enterQuoyTextCont {
+  font-size: 3rem;
 }
 
 .HH756 {
   background: white;
   width: 50%;
   height: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-transition: 250ms;
+  align-items: center;
+  justify-content: center;
   transition: 250ms;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.HH756 .profileImageHH756 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+.HH756 .enterHH756TextCont {
+  font-size: 3rem;
 }
 
 .HH756:hover {
   width: 60%;
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 10px #c8c8c8;
-          box-shadow: 0px 0px 10px #c8c8c8;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
   z-index: 998;
+}
+
+.Quoy:hover {
+  width: 60%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
+  z-index: 998;
+}
+
+.profileImage {
+  width: 50%;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
 }
 
 .sideSelectElement {
@@ -96,26 +84,14 @@
   background: white;
   top: 37.5%;
   left: 37.5%;
-  -webkit-box-shadow: 0px 0px 20px #c8c8c8;
-          box-shadow: 0px 0px 20px #c8c8c8;
+  box-shadow: 0px 0px 20px rgb(200, 200, 200);
   border-radius: 10px;
   z-index: 999;
   width: 25%;
   height: 25%;
   font-size: 3rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-}
-
-.enterQuoyTextCont {
-  font-size: 3rem;
-}
-/*# sourceMappingURL=App.css.map */
+}/*# sourceMappingURL=App.css.map */
