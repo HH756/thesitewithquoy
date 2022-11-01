@@ -1,10 +1,10 @@
 import './App.css';
-
+import React from 'react';
 function App() {
   return (
     <div className="App">
       <div className='sideSelectElement'>
-        Choose your game
+        {'<     >'} 
       </div>
       <div className="Quoy">
         <div className="profileImageQuoyContainer">
@@ -18,7 +18,7 @@ function App() {
         </p>
       </div>
       <div className="HH756">
-        <div className="profileImageHH756">
+        <div className="profileImageHH756Container">
           <img className="profileImage" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.businessinsider.com%2Fimage%2F5c448fe62bdd7f18ce693af2&f=1&nofb=1&ipt=f67620da191e4d2a950681214f26b74bf9b2c34cefa2476a2395406583cb05cb&ipo=images"></img>
         </div>
         <div className="enterHH756TextCont">

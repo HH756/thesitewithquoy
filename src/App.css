@@ -6,104 +6,163 @@
 .App {
   width: 100vw;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
+
 .App .Quoy {
   width: 50%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: white;
+  -webkit-transition: 250ms;
   transition: 250ms;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
+
 .App .Quoy .profileImageQuoyContainer {
   width: 50%;
   border: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .App .Quoy .enterQuoyTextCont {
   font-size: 3rem;
 }
 
-.HH756 {
+.App .Quoy:hover {
+  width: 60%;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 3rem #c8c8c8;
+          box-shadow: 0px 0px 3rem #c8c8c8;
+  z-index: 998;
+}
+
+.App .Quoy:hover .blurb {
+  color: black;
+}
+
+.App .Quoy:hover .sideSelectElement {
+  background: pink;
+}
+
+.App .HH756 {
   background: white;
   width: 50%;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 250ms;
   transition: 250ms;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.HH756 .profileImageHH756 {
+
+.App .HH756 .profileImageHH756Container {
   width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border: none;
 }
-.HH756 .enterHH756TextCont {
+
+.App .HH756 .enterHH756TextCont {
   font-size: 3rem;
 }
 
-.HH756:hover {
+.App .HH756:hover {
   width: 60%;
   cursor: pointer;
-  box-shadow: 0px 0px 3rem rgb(200, 200, 200);
+  -webkit-box-shadow: 0px 0px 3rem #c8c8c8;
+          box-shadow: 0px 0px 3rem #c8c8c8;
   z-index: 998;
 }
-.HH756:hover .blurb {
+
+.App .HH756:hover .blurb {
   color: black;
 }
 
-.Quoy:hover {
-  width: 60%;
-  cursor: pointer;
-  box-shadow: 0px 0px 3rem rgb(200, 200, 200);
-  z-index: 998;
-}
-.Quoy:hover .blurb {
-  color: black;
-}
-
-.profileImage {
+.App .profileImage {
   width: 50%;
   aspect-ratio: 1;
   border-radius: 50%;
-  box-shadow: 0px 0px 3rem rgb(200, 200, 200);
+  -webkit-box-shadow: 0px 0px 3rem #c8c8c8;
+          box-shadow: 0px 0px 3rem #c8c8c8;
 }
 
-.blurb {
+.App .blurb {
   color: white;
+  -webkit-transition: 500ms;
   transition: 500ms;
   width: 50%;
 }
 
-.sideSelectElement {
+.App .sideSelectElement {
   position: absolute;
-  color: darkgrey;
   background: white;
   top: 37.5%;
   left: 37.5%;
-  box-shadow: 0px 0px 20px rgb(200, 200, 200);
+  -webkit-box-shadow: 0px 0px 20px #c8c8c8;
+          box-shadow: 0px 0px 20px #c8c8c8;
   border-radius: 10px;
   z-index: 999;
   width: 25%;
   height: 25%;
   font-size: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center;
-}/*# sourceMappingURL=App.css.map */
+}
+/*# sourceMappingURL=App.css.map */
