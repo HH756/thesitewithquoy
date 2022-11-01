@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  .Quoy {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    background: white;
+    transition: 250ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .enterQuoyProfileImage {
+      width: 50%;
+      height: 25%;
+      background: white;
+      box-shadow: 0px 0px 10px rgb(200, 200, 200);
+      border-radius: 10px;
+      border: none;
+      .QuoyImage {
+        width: 50%;
+        aspect-ratio: 1;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgb(200, 200, 200);
+      }
+    }
+  }
+}
+
+.Quoy:hover {
+  width: 60%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
+  z-index: 998;
+}
+.HH756 {
+  background: white;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 250ms;
+}
+.HH756:hover {
+  width: 60%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgb(200, 200, 200);
+  z-index: 998;
+}
+.sideSelectElement {
+  position: absolute;
+  color: darkgrey;
+  background: white;
+  top: 37.5%;
+  left: 37.5%;
+  box-shadow: 0px 0px 20px rgb(200, 200, 200);
+  border-radius: 10px;
+  z-index: 999;
+  width: 25%;
+  height: 25%;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.enterQuoyTextCont {
+  font-size: 3rem;
+
+}
